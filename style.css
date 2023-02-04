@@ -21,10 +21,15 @@ body {
 
 .stats-container {
     display: flex;
+    
+}
+.stats-container:hover {
+    cursor:pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #bcaea8;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
